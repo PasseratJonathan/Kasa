@@ -1,0 +1,32 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-cart {
+    display: flex;
+    background-color: rgba(246, 246, 246, 1);
+    flex-wrap: wrap;
+    width: 1140px;
+    border-radius: 25px;
+    padding: 56px 50px 43px 50px;
+    gap: 50px;
+}
+
+.cart {
+    display: flex;
+    height: 340px;
+    width: 340px;
+    border-radius: 10px;
+}
+
+.cart-name {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+.kasa-logo {
+    margin: 45px 0 50px 100px;
+}
+
+.haut-de-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul {
+    display: flex;
+    margin: 62px 100px 0 0;
+}
+
+.nav-li {
+    margin-left: 50px;
+    margin-bottom: 70px;
+    list-style-type: none;
+    text-decoration: none;
+    color: #FF6060;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-li.active {
+    text-decoration: underline;
+}
+

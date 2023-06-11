@@ -1,0 +1,23 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:rgba(255, 96, 96, 1);
+}
+
+.error h1 {
+    font-size: 288px;
+    font-weight: 700;
+    margin-bottom: 140px;
+}
+
+.error h2 {
+    font-size: 36px;
+    margin-bottom: 140px;
+}
+
+.error-home {
+    margin-bottom: 90px;
+    color: rgba(255, 96, 96, 1);
+    font-size: 18px;
+}

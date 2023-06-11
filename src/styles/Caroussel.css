@@ -1,0 +1,55 @@
+.logement {
+    display: flex;
+    justify-content: center;
+}
+
+.container-caroussel {
+    display: flex;
+    flex-direction: column;
+    width: 1240px;
+}
+
+.container-caroussel img {
+    width: 1240px;
+    height: 414px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1240px;
+}
+
+.titre h1 {
+    font-size: 36px;
+}
+
+.titre p {
+    font-size: 18px;
+}
+
+.name-picture {
+    display: flex;
+    gap: 10px;
+}
+
+.name {
+    display: flex;
+    width: 92px;
+    text-align: right;
+}
+
+.picture img {
+    width: 64px;
+    height: 64px;
+}
+
+.lieu p {
+    text-align: flex-start;
+    font-size: 18px;
+}

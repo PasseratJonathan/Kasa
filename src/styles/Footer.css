@@ -1,0 +1,18 @@
+.footer {
+    background-color: rgb(0, 0, 0);
+    margin-top: 50px;
+    height: 210px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.logo_footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+    margin-bottom: 30px;
+}
+
+.footer p {
+    text-align: center;
+}

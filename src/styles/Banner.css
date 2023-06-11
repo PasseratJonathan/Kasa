@@ -1,0 +1,24 @@
+.background {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 42px;
+}
+
+.background img {
+    width: 1240px;
+    height: 222px;
+    object-fit: cover;
+    border-radius: 25px;
+    filter: brightness(80%);
+}
+
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+}
