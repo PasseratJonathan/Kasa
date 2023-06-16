@@ -19,7 +19,7 @@ function FicheLogement() {
   }, [id, navigate]);
 
   if (!isIdValidRef.current) {
-    return null; // Rendu vide pendant la redirection
+  //  return null; // Rendu vide pendant la redirection
   }
 
   const filteredData = data.find((cart) => cart.id === id);

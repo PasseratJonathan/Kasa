@@ -32,10 +32,11 @@
     .background img {
         height: 112px;
     }
-}
 
-.background-text {
+    .background-text {
     font-size: 24px;
     text-align: left;
     left: calc(50% - 16px);
+    }
+
 }

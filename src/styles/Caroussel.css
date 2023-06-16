@@ -1,25 +1,25 @@
 .logement {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 .container-caroussel {
     display: flex;
     flex-direction: column;
-    width: 1240px;
+    max-width: 1240px;
+    width: 100%;
     position: relative;
 }
 
 .container-caroussel img {
-    width: 1240px;
+    max-width: 1240px;
+    width: 100%;
     height: 414px;
     border-radius: 25px;
-}
-
-.carousel-image img {
     object-fit: cover;
 }
+
 
 .carousel-buttons {
     position: absolute;
@@ -54,6 +54,23 @@
     color: #fff;
     margin-bottom: 24px;
     font-size: 18px;
+  }
+
+
+  @media(max-width:600px) {
+    .container-caroussel img {
+        height: 224px;
+    }
+
+    .carousel-text {
+        display: none;
+    }
+
+    .carousel-buttons img {
+        height: 20px;
+        width: 12px;
+    }
+    
   }
 
 

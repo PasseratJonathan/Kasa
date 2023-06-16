@@ -25,18 +25,10 @@ function InfoLogement() {
     return (
     <div className="info-container">
         <div className='titre'>
+            <div className="left-side">
                 <div>
                     <h1>{logement.title}</h1>
                 </div>
-                <div className='name-picture'>
-                    <div className='name'>
-                        <p>{logement.host.name}</p>
-                    </div>
-                    <div className='picture'>
-                        <img src={logement.host.picture} alt=""/>
-                    </div>
-                </div>
-        </div>
                 <div className='lieu'>
                     <p>{logement.location}</p>
                 </div>
@@ -45,10 +37,24 @@ function InfoLogement() {
                     {logement.tags.map((tag, index) => (
                     <p key={index}>{tag}</p>
                     ))}</div>
-                    <div className="note">
-                    {ratingStars(logement.rating)}
+                    
+                </div>
+            </div>
+            <div className="right-side">
+                <div className='name-picture'>
+                    <div className='name'>
+                        <p>{logement.host.name}</p>
+                    </div>
+                    <div className='picture'>
+                        <img src={logement.host.picture} alt=""/>
                     </div>
                 </div>
+                    <div className="note">
+                    {ratingStars(logement.rating)}
+                    </div>                
+            </div>
+        </div>             
+                
                 <div className="select-fiche">
                     <Select texte='Description'/>
                     <Select texte='Equipements' />

@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1022px;
+    max-width: 1022px;
+    width: 100%;
     justify-content: center;
     margin: 0 auto;
 }
@@ -61,7 +62,7 @@
 
     @media(max-width:600px) {
         .form-container {
-            width: 335px;
+            padding-right: 20px;
         }
 
         .dropdown img {
