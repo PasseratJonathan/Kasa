@@ -17,7 +17,27 @@
 }
 
 .error-home {
-    margin-bottom: 90px;
+    margin-bottom: 140px;
     color: rgba(255, 96, 96, 1);
     font-size: 18px;
 }
+
+
+@media(max-width:600px) {
+
+    .error h1 {
+        font-size: 96px;
+        margin-bottom: 112px;
+    }
+
+    .error h2 {
+        font-size: 18px;
+        margin-bottom: 112px;
+    }
+
+    .error-home {
+        margin-bottom: 112px;
+        font-size: 14px;
+    }
+}
+

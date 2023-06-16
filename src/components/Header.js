@@ -13,7 +13,7 @@ function Header() {
                     <img src={logo} alt='logo kasa' className='kasa-logo'/>
                     <nav className='nav-ul'>
                         <Link className={`nav-li ${isActive('/')}`} to="/">Accueil</Link>
-                        <Link className={`nav-li ${isActive('/A-Propos')}`} to="/A-Propos">A Propos</Link>
+                        <Link className={`nav-li nav-li-right ${isActive('/A-Propos')}`} to="/A-Propos">A Propos</Link>
                     </nav>
                 </div>
             </div>

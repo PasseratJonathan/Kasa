@@ -11,6 +11,7 @@
     border-radius: 25px;
     padding: 56px 50px 43px 50px;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .cart {
@@ -18,6 +19,8 @@
     height: 340px;
     width: 340px;
     border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .cart-name {
@@ -28,5 +31,28 @@
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     margin-left: 20px;
-    margin-bottom: 20px;
+}
+
+
+@media(max-width:600px) {
+    .container-cart {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 26px;
+    }
+
+    .cart {
+        height: 255px;
+        width: 335px;
+        border-radius: 10px;
+    }
+
+    .cart-name {
+        font-size: 18px;
+        margin-left: 20px;
+    }    
 }

@@ -1,5 +1,5 @@
 import Header from '../../components/Header.js'
-import Cart from '../../components/Cart.js'
+import Card from '../../components/Card.js'
 import Footer from '../../components/Footer.js'
 import background from '../../assets/background.png'
 import Banner from '../../components/Banner';
@@ -9,7 +9,7 @@ function Home() {
       <div>
         <Header />
         <Banner background={background} showText={true}/>
-        <Cart />
+        <Card />
         <Footer />
       </div>
     );
