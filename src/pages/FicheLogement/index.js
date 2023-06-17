@@ -11,23 +11,22 @@ function FicheLogement() {
   const navigate = useNavigate();
   const isIdValidRef = useRef(false);
 
-  useEffect(() => {
-    isIdValidRef.current = data.some((cart) => cart.id === id);
+  isIdValidRef.current = data.some((cart) => cart.id === id);
+
+  useEffect(() => {    
     if (!isIdValidRef.current) {
       navigate('/Error');
     }
   }, [id, navigate]);
 
   if (!isIdValidRef.current) {
-  //  return null; // Rendu vide pendant la redirection
+    return <redirect to="/Error" />;
   }
-
-  const filteredData = data.find((cart) => cart.id === id);
 
   return (
     <div>
       <Header />
-      <Caroussel pictures={filteredData?.pictures ?? []} />
+      <Caroussel />
       <InfoLogement />
       <Footer />
     </div>
